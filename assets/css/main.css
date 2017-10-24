@@ -3926,16 +3926,16 @@
 				-ms-object-position: center;
 				object-position: center;
                 height: 25em;
-                max-height: 50vh;
+                max-height: 55vh;
                 min-height: 18em;
-                border-radius: 100%;
+                /*border-radius: 100%;*/
                 width: 50%;
                 -moz-transition: opacity 0.2s ease-in-out;
                 -webkit-transition: opacity 0.2s ease-in-out;
                 -ms-transition: opacity 0.2s ease-in-out;
                 transition: opacity 0.2s ease-in-out;
                 display: block;
-                height: 50%;
+                height: 100%;
                 opacity: 0.9;
                 display: block;
                 margin: auto;
@@ -4006,7 +4006,7 @@
 
 	#footer .copyright {
 		color: #9fa3a6;
-		font-size: 0.7em;
+		font-size: 0.65em;
 	}
 
 		#footer .copyright a {
