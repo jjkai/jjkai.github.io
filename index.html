@@ -25,6 +25,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108517875-1"></script>
         <script>
@@ -36,35 +37,14 @@
         </script>        
 	</head>
 	<body>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-
-
-                            
 							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-                                            <h2>Hi, I am <strong>Jia-Kai Chou</strong></h2>
-                                            <p>A Researcher in <strong>Information Visualization &amp; Visual Analytics</strong></p>
-                                        </header>
-                                        	<p>I design visualization and interactive systems to support effective data exploration and analytics. I constantly collaborate with experts in different domains, such as healthcare, neuroscience, and cell biology, and helps them address research questions in their fields. I also focus on the privacy preserving aspect of user information while sharing, processing, and gaining insights from the data.                                     		
-                                    		</p>
-                                            <p>Postdoctoral Researcher at UC Davis 
-                                            	<a href="http://vidi.cs.ucdavis.edu/new/" target="_blank">VIDi Labs</a> | <a href="https://scholar.google.com/citations?user=rJ8fj34AAAAJ&hl=zh-TW" target="_blank"> Google Scholar</a> | <a href="http://dblp.uni-trier.de/pers/hd/c/Chou:Jia=Kai" target="_blank"> DBLP </a> | <a href="./CV_Jia-KaiChou.pdf" target="_blank"> CV </a>
-                                            </p>
-                                            
-									</div>
-                                        <span class="image">
-                                            <img src="images/JKChou.png" alt="" />
-                                        </span>
-								</section>
-
+							<section id="banner" w3-include-html="basic_info.html"></section> 
 							<!-- Section -->
 								<section id="News">
 									<header class="major">
@@ -154,6 +134,7 @@
 									<p>The best way to contact me is by email: [remove "-" from first name] [dot] [last name] @gmail.com</p>
                                     <ul class="icons">
                                         <li><a href="https://www.linkedin.com/in/jjkai/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="https://twitter.com/JiaKaiChou" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                                         <!-- <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li> -->
                                         <!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
                                         <!-- <li><a href="mailto:jkchou@ucdavis.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
@@ -178,6 +159,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/w3.js"></script>
+			<script>w3.includeHTML();</script>
 	</body>
 </html>
